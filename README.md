@@ -2,7 +2,7 @@
 
 Artificial Intelligence student at **Universitat Politècnica de Catalunya (UPC)**.
 
-This portfolio brings together university team projects in data engineering, knowledge graphs, applied machine learning, deep learning, case-based reasoning, reinforcement learning, mobile robotics and control systems. Each repository explains the problem, implementation, outputs and validation status.
+This portfolio brings together university team projects in data engineering, knowledge graphs, applied machine learning, deep learning, natural language processing, heuristic search, symbolic planning, case-based reasoning, reinforcement learning, mobile robotics and control systems. Each repository explains the problem, implementation, outputs and validation status.
 
 ## Selected projects
 
@@ -18,6 +18,11 @@ This portfolio brings together university team projects in data engineering, kno
 | [Inverted Pendulum Control & Estimation](https://github.com/joelalfaroupc/inverted-pendulum-control) | Seven simulation models comparing PID, LQR, Kalman estimation and LQG, with a technical report and independent linear-model checks. | MATLAB · Simulink · Control Theory |
 | [Case-Based Menu Recommendation](https://github.com/joelalfaroupc/case-based-menu-recommender) | Multilingual menu retrieval, rule-based adaptation and feedback-driven retention across 102 stored cases. | Python · Sentence Transformers · Case-Based Reasoning |
 
+| [Azamon — Shipping Optimization](https://github.com/joelalfaroupc/azamon-shipping-optimization) | Hill climbing and simulated annealing for constrained parcel assignment, with reproducible cost/satisfaction experiments. | Python · Local Search · Simulated Annealing |
+| [Redflix — Movie Planning](https://github.com/joelalfaroupc/redflix-movie-planning) | Five PDDL planning variants for narrative dependencies, parallel content and daily time limits, with seeded problem generation. | PDDL · Automated Planning · Python |
+| [Catalan Semantic Similarity](https://github.com/joelalfaroupc/catalan-semantic-similarity) | Representation, Siamese-network and attention experiments, with archived correlations and a train-only TF-IDF baseline. | Python · TensorFlow · spaCy · scikit-learn |
+| [Neural Language Understanding](https://github.com/joelalfaroupc/neural-language-understanding) | ATIS intent classification and slot filling, with academic experiments and an independently evaluated joint BiGRU baseline. | Python · PyTorch · Keras · NLP |
+
 ## Explore the portfolio
 
 The data pipeline and knowledge graph form a connected workflow: cleaned relational data becomes a semantic model for querying and neighborhood comparison. SAMO explores decision support from historical sensor observations, while the robot project connects semantic targets with navigation and perception.
@@ -27,6 +32,8 @@ Hotels connects machine-learning predictions with operational recommendations. T
 The lunar-landing project compares DDPG and TD3 for continuous control, with archived evaluations, policy videos and tools for new experiments.
 
 The image-classification project explores augmentation and regularization under a limited training budget. It preserves the original model and recorded validation results, with tools for training and prediction.
+
+Azamon explores constrained optimization through local search, while Redflix models narrative scheduling as symbolic planning. The NLP projects compare sentence-similarity representations and convert flight queries into intents and token-level slots. Their READMEs distinguish archived academic results from newly executed baselines.
 
 The READMEs include setup instructions, existing evidence and limitations. Offline estimates and archived experiment results are identified as such.
 
