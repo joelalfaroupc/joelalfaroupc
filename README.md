@@ -36,7 +36,7 @@ University team projects exploring how data, learning algorithms and knowledge m
 **Robotics and reinforcement learning**
 
 - [Event Guide Robot](https://github.com/joelalfaroupc/event-guide-robot) — semantic navigation and ArUco visual-search architecture for TurtleBot3. Navigation was tested on hardware; complete visual-search hardware validation is pending.
-- **Lunar Landing — DDPG & TD3** — continuous-control agents in PyTorch with learning curves, archived evaluations, policy videos and tools for seeded experiments. Repository publication is pending.
+- [Lunar Landing — DDPG & TD3](https://github.com/joelalfaroupc/APRNS-LAB-7) — continuous-control agents in PyTorch with learning curves, archived evaluations, policy videos and tools for seeded experiments.
 
 ## About the projects
 
