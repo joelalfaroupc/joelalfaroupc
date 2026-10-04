@@ -20,7 +20,7 @@ This portfolio brings together university team projects in data engineering, kno
 | [Case-Based Menu Recommendation](https://github.com/joelalfaroupc/case-based-menu-recommender) | Multilingual menu retrieval, rule-based adaptation and feedback-driven retention across 102 stored cases. | Python · Sentence Transformers · Case-Based Reasoning |
 | [Azamon — Shipping Optimization](https://github.com/joelalfaroupc/azamon-shipping-optimization) | Hill climbing and simulated annealing for constrained parcel assignment, with reproducible cost/satisfaction experiments. | Python · Local Search · Simulated Annealing |
 | [Redflix — Movie Planning](https://github.com/joelalfaroupc/redflix-movie-planning) | Five PDDL planning variants for narrative dependencies, parallel content and daily time limits, with seeded problem generation. | PDDL · Automated Planning · Python |
-| [Catalan Semantic Similarity](https://github.com/joelalfaroupc/catalan-semantic-similarity) | Representation, Siamese-network and attention experiments, with archived correlations and a train-only TF-IDF baseline. | Python · TensorFlow · spaCy · scikit-learn |
+| [Catalan Semantic Similarity — Siamese Networks & Attention](https://github.com/joelalfaroupc/catalan-semantic-similarity) | Shared-weight Siamese networks and custom attention pooling, with 33 archived configurations comparing Catalan sentence representations. | Python · TensorFlow · fastText · spaCy |
 | [Neural Language Understanding](https://github.com/joelalfaroupc/neural-language-understanding) | ATIS intent classification and slot filling, with academic experiments and an independently evaluated joint BiGRU baseline. | Python · PyTorch · Keras · NLP |
 
 ## Explore the portfolio
@@ -33,7 +33,7 @@ The lunar-landing project compares DDPG and TD3 for continuous control, with arc
 
 The image-classification project explores augmentation and regularization under a limited training budget. It preserves the original model and recorded validation results, with tools for training and prediction. The dental-implant project adds a hybrid pipeline from classical MATLAB pseudo-labels to YOLO detection and U-Net segmentation; its archived scores and supervision limits are documented.
 
-Azamon explores constrained optimization through local search, while Redflix models narrative scheduling as symbolic planning. The NLP projects compare sentence-similarity representations and convert flight queries into intents and token-level slots. Their READMEs distinguish archived academic results from newly executed baselines.
+Azamon explores constrained optimization through local search, while Redflix models narrative scheduling as symbolic planning. Catalan Semantic Similarity explores shared-weight Siamese networks, learned token attention and sentence-representation comparisons across 33 archived configurations. [Its original notebook](https://github.com/joelalfaroupc/catalan-semantic-similarity/blob/main/archive/practica4_PLH.ipynb) and [academic report](https://github.com/joelalfaroupc/catalan-semantic-similarity/blob/main/archive/report.pdf) document the experiments and findings. Neural Language Understanding converts flight queries into intents and token-level slots. Both READMEs distinguish archived academic results from independently implemented baselines.
 
 The READMEs include setup instructions, existing evidence and limitations. Offline estimates and archived experiment results are identified as such.
 
