@@ -22,6 +22,10 @@ University team projects exploring how data, learning algorithms and knowledge m
 - [Time-Budgeted Image Classification](https://github.com/joelalfaroupc/time-budgeted-image-classification) — compact 12-class CNN under a ten-minute CPU training budget, preserving the original checkpoint and **78.26% recorded validation accuracy**.
 - [Neural Language Understanding](https://github.com/joelalfaroupc/neural-language-understanding) — intent classification and slot filling on ATIS, with archived academic experiments and a separately evaluated joint BiGRU baseline.
 
+**Statistical analysis and data quality**
+
+- [US Traffic Accident Analytics](https://github.com/joelalfaroupc/us-traffic-accident-analytics) — connects missing-data treatment, mixed-data clustering, temporal profiles, geospatial analysis and text mining in R and Python. Archived multistate analysis identifies **five segments across 14,689 records**, with methodological limits and data-restoration instructions.
+
 **Knowledge and decision-making**
 
 - [Barcelona Tourism Knowledge Graph](https://github.com/joelalfaroupc/Semantic-Data-Management-for-AI) — RDF/RDFS, SPARQL and exploratory clustering of **73 neighborhoods**, extending the tourism pipeline with a semantic model.
