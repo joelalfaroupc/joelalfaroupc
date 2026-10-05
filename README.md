@@ -13,7 +13,7 @@ University team projects exploring how data, learning algorithms and knowledge m
 | [Barcelona Tourism Data Pipeline](https://github.com/joelalfaroupc/BDA_DataPipeline) | Organizes nine urban datasets into five data zones with reusable analytical tables. Temporal calendar-availability prediction reached RMSE **0.0713**, versus **0.1159** for the baseline; availability is not confirmed bookings. | Python · PySpark · DuckDB |
 | [Dental Implant Detection & Segmentation](https://github.com/joelalfaroupc/dental-implant-detection-segmentation) | Combines classical MATLAB image processing with YOLOv8 detection and ResNet18 U-Net segmentation. Archived detection mAP50: **0.995** on 35 validation images with pseudo-annotations; clinical generalization remains untested. | MATLAB · PyTorch · Ultralytics · OpenCV |
 | [Catalan Semantic Similarity](https://github.com/joelalfaroupc/catalan-semantic-similarity) | Compares sentence representations across **33 archived configurations**, including shared-weight Siamese networks and custom attention pooling. Best archived validation Pearson correlation: **0.5044**. | Python · TensorFlow · fastText · spaCy |
-| [Inverted Pendulum Control & Estimation](https://github.com/joelalfaroupc/inverted-pendulum-control) | Explores stabilization, reference tracking and state estimation through **seven simulation models** covering PID, LQR, Kalman filtering and LQG. Includes the technical report and independent linear-model checks. | MATLAB · Simulink · Control Theory |
+| [Event Guide Robot & UR3 Manipulation](https://github.com/joelalfaroupc/event-guide-robot) | Combines TurtleBot3 event guidance, ROS navigation and ArUco perception with UR3 battery replacement through PDDL task planning and Kautham/OMPL motion planning. Includes real and simulated setups and **eight original demo videos**; validation limits are documented. | Python · ROS · OpenCV · PDDL · Kautham/OMPL |
 
 ## Explore by topic
 
@@ -35,7 +35,7 @@ University team projects exploring how data, learning algorithms and knowledge m
 
 **Robotics and reinforcement learning**
 
-- [Event Guide Robot](https://github.com/joelalfaroupc/event-guide-robot) — semantic navigation and ArUco visual-search architecture for TurtleBot3. Navigation was tested on hardware; complete visual-search hardware validation is pending.
+- [Inverted Pendulum Control & Estimation](https://github.com/joelalfaroupc/inverted-pendulum-control) — **seven simulation models** covering PID, LQR, Kalman filtering and LQG for stabilization, tracking and state estimation, with the technical report and independent linear-model checks.
 - [Lunar Landing — DDPG & TD3](https://github.com/joelalfaroupc/APRNS-LAB-7) — continuous-control agents in PyTorch with learning curves, archived evaluations, policy videos and tools for seeded experiments.
 
 ## About the projects
